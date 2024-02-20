@@ -4,7 +4,7 @@
 * Types (Classes, Structs, Enums): Follow UpperCamelCase convention. Names of types and protocols should be capitalized, with each word capitalized within the name.
 *        //Example
         struct MyStruct {
-            // struct definition
+            // struct definition 
         }
 
         class MyClass {
