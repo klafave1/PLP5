@@ -14,4 +14,7 @@
         enum MyEnum {
             // enum definition
         }
-
+* Properties and Variables: Follow lowerCamelCase convention. Names of properties and variables should start with lowercase letter, with subsequent words capitalized.
+*         //Example
+          var myVariable: Int
+          let myConstant: String
