@@ -27,13 +27,6 @@
           func calculateValue() {
             // method definition
           }
-* Constants and Enum Cases: Follow UpperCamelCase convention. Names of constants and enum cases should be capitalized, with each word capitalized within the name.
-*         //Example
-          let MaxValue = 100
-          enum Direction {
-              case Up
-              case Down
-          }
 * Acronyms: Acronyms and initialisms should be treated as single words in names.
 *         //Example
           var userID: Int
