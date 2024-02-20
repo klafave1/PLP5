@@ -105,3 +105,13 @@
           deinit {
               // perform the deinitialization
           }
+
+#### Sources:
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/classesandstructures/
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/inheritance/
+* https://developer.apple.com/documentation/swift/customstringconvertible
+* https://serialcoder.dev/text-tutorials/swift-tutorials/overloading-functions-in-swift/
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/accesscontrol/
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/typecasting/
+* https://docs.swift.org/swift-book/documentation/the-swift-programming-language/deinitialization/
