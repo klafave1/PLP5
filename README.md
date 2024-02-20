@@ -45,6 +45,11 @@
           struct Point {
             let x: Int, y: Int
           }
+######         (By default, struct uses the default representation:)
+*         //Example
+          let p = Point(x: 21, y: 30)
+          print(p)
+          // Prints "Point(x: 21, y: 30)"
 
 #### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
 ######
