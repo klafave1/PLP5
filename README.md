@@ -90,6 +90,12 @@
 * Preventing Overrides: You can prevent a method, property, or subscript from being overridden in a subclass by marking it as "final". This prevents subclasses from providing their own implementations.
 ###### In Swift, single inheritance is supported, meaning a class can inherit from only one superclass.
 #### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
-###### In Swift, method overloading is common and allows developers to define multiple methods with the same name but differing in parameter types, number of parameters, or argument labels. This is particularly useful in scenarios where similar functionality is desired under varying circumstances. When a method call is made, Swift's compiler decides which method to execute based on the provided arguments, ensuring that the appropriate overloaded method is executed.
+###### In Swift, method overloading is common and allows developers to define multiple methods with the same name but differing in parameter types, number of parameters, or argument labels. When a method call is made, Swift's compiler decides which method to execute based on the provided arguments, ensuring that the appropriate overloaded method is executed.
 #### 5. Is there anything else that’s important to know about objects and inheritance in your language? a. I know this question is vague, but objects are where languages can vary a lot, so it’s hard to ask questions that will apply to everyone.
-######
+* Access Control: Swift provides access control modifiers such as "private", "internal", "fileprivate", and "public" to restrict access to properties, methods, and classes.
+*         //Example
+          open class SomeOpenClass {}
+          public class SomePublicClass {}
+          internal class SomeInternalClass {}
+          fileprivate class SomeFilePrivateClass {}
+          private class SomePrivateClass {}
