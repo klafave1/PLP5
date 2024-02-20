@@ -75,7 +75,21 @@
             }
           }
 * Subclassing: Subclassing is the act of basing a new class on an existing class. In Swift, you indicate that a subclass has a superclass by writing the subclass name before the superclass name, separated by a colon.
-* 
+*         //Example
+          class SomeSubclass: SomeSuperclass {
+            // subclass definition goes here
+          }
+* Overriding: A subclass can provide its own custom implementation of methods, properties, or subscripts that it inherits from a superclass. In Swift, you use the "override" keyword to indicate that a characteristic is being overridden. For example, the "makeNoise()" method in the Train class overrides the method inherited from Vehicle.
+*         //Example
+          class Train: Vehicle {
+            override func makeNoise() {
+                print("Choo Choo")
+            }
+          }
+* Accessing Superclass Methods, Properties, and Subscripts: When providing an override for a subclass, it's sometimes useful to access the existing implementation from the superclass. In Swift, you use the "super" prefix to access the superclass's implementation.
+* Preventing Overrides: You can prevent a method, property, or subscript from being overridden in a subclass by marking it as "final". This prevents subclasses from providing their own implementations.
+###### In Swift, single inheritance is supported, meaning a class can inherit from only one superclass.
 #### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
-######
+###### In Swift, method overloading is common and allows developers to define multiple methods with the same name but differing in parameter types, number of parameters, or argument labels. This is particularly useful in scenarios where similar functionality is desired under varying circumstances. When a method call is made, Swift's compiler decides which method to execute based on the provided arguments, ensuring that the appropriate overloaded method is executed.
 #### 5. Is there anything else that’s important to know about objects and inheritance in your language? a. I know this question is vague, but objects are where languages can vary a lot, so it’s hard to ask questions that will apply to everyone.
+######
