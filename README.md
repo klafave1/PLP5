@@ -38,7 +38,7 @@
 *         //Example
           var userID: Int
 #### 2. Does your language have standard methods for functions that serve a similar purpose across all objects? For example, toString() in Java and __str__ in Python allow information about the objects to be printed. Are there similar functions in your language?
-###### 
+###### In Swift, the equivalent functionality to "toString()" in Java or "__str__()" in Python is achieved through the CustomStringConvertible protocol, which allows objects to customize their string representation.
 #### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
 ######
 #### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
