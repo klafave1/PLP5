@@ -39,3 +39,8 @@
           var userID: Int
 #### 2. Does your language have standard methods for functions that serve a similar purpose across all objects? For example, toString() in Java and __str__ in Python allow information about the objects to be printed. Are there similar functions in your language?
 ###### 
+#### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
+######
+#### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
+######
+#### 5. Is there anything else that’s important to know about objects and inheritance in your language? a. I know this question is vague, but objects are where languages can vary a lot, so it’s hard to ask questions that will apply to everyone.
