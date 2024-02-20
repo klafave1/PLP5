@@ -99,3 +99,9 @@
           internal class SomeInternalClass {}
           fileprivate class SomeFilePrivateClass {}
           private class SomePrivateClass {}
+* Type Casting and Checking: Swift provides type casting operators (as, as?, as!) to check and convert the type of an instance at runtime. This is very useful when working with inheritance hierarchies.
+* Class Initialization and Deinitialization: In addition to custom initializers, Swift classes can define deinitializers using the "deinit" keyword. Deinitializers are called automatically when an instance of a class is deallocated, allowing for cleanup operations.
+*         //Format
+          deinit {
+              // perform the deinitialization
+          }
