@@ -39,6 +39,13 @@
           var userID: Int
 #### 2. Does your language have standard methods for functions that serve a similar purpose across all objects? For example, toString() in Java and __str__ in Python allow information about the objects to be printed. Are there similar functions in your language?
 ###### In Swift, the equivalent functionality to "toString()" in Java or "__str__()" in Python is achieved through the CustomStringConvertible protocol, which allows objects to customize their string representation.
+###### In Swift, the CustomStringConvertible protocol allows types to provide their own representation when converting an instance to a string. The String(describing:) initializer is the recommended method to convert an instance of any type to a string. If the instance conforms to CustomStringConvertible, both the String(describing:) initializer and the print(_:) function will use the instance's "description" property. However, directly accessing a type's "description" property or using CustomStringConvertible as a generic constraint is generally discouraged.
+* To conform to the CustomStringConvertible protocol, you need to define a description property in your custom types. For example, consider a custom Point struct:
+*         //Example
+          struct Point {
+            let x: Int, y: Int
+          }
+
 #### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
 ######
 #### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
