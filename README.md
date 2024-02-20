@@ -18,3 +18,12 @@
 *         //Example
           var myVariable: Int
           let myConstant: String
+* Functions and Methods: Follow lowerCamelCase convention. Function and method names should also start with a lowercase letter, with subsequent words capitalized.
+*         //Example
+          func myFunction() {
+            // function definition
+          }
+
+          func calculateValue() {
+            // method definition
+          }
