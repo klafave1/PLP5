@@ -50,6 +50,16 @@
           let p = Point(x: 21, y: 30)
           print(p)
           // Prints "Point(x: 21, y: 30)"
+* However, after implementing the description property and declaring conformance to CustomStringConvertible, the Point type provides its own custom representation:
+*         //Example
+          extension Point: CustomStringConvertible {
+              var description: String {
+                  return "(\(x), \(y))"
+              }
+          }
+
+          print(p)
+          // Prints "(21, 30)"
 
 #### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
 ######
