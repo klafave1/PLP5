@@ -62,7 +62,20 @@
           // Prints "(21, 30)"
 ###### In the above example, the description property of the Point struct is implemented to return a string representation in the format "(x, y)", where x and y are the coordinates of the point. When you print an instance of Point, Swift automatically uses the custom description property to provide the desired string representation.
 #### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
-######
+###### In Swift, a class can inherit methods, properties, and other characteristics from another class. When one class inherits from another, the inheriting class is known as a subclass, and the class it inherits from is known as its superclass. 
+* Defining a Base Class: Any class that doesn’t inherit from another class is known as a base class. Base classes in Swift can define properties, methods, and other characteristics. For example, the "Vehicle" class is defined with properties like "currentSpeed" and a method "makeNoise()".
+*         //Example
+          class Vehicle {
+            var currentSpeed = 0.0
+            var description: String {
+                return "traveling at \(currentSpeed) miles per hour"
+            }
+            func makeNoise() {
+                // do nothing - an arbitrary vehicle doesn't necessarily make a noise
+            }
+          }
+* Subclassing: Subclassing is the act of basing a new class on an existing class. In Swift, you indicate that a subclass has a superclass by writing the subclass name before the superclass name, separated by a colon.
+* 
 #### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
 ######
 #### 5. Is there anything else that’s important to know about objects and inheritance in your language? a. I know this question is vague, but objects are where languages can vary a lot, so it’s hard to ask questions that will apply to everyone.
