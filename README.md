@@ -60,7 +60,7 @@
 
           print(p)
           // Prints "(21, 30)"
-
+###### In the above example, the description property of the Point struct is implemented to return a string representation in the format "(x, y)", where x and y are the coordinates of the point. When you print an instance of Point, Swift automatically uses the custom description property to provide the desired string representation.
 #### 3. How does inheritance work (if it does)? Does your language support multiple inheritance?
 ######
 #### 4. If there is inheritance, how does your language deal with overloading method names and resolving those calls?
