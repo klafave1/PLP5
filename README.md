@@ -37,3 +37,5 @@
 * Acronyms: Acronyms and initialisms should be treated as single words in names.
 *         //Example
           var userID: Int
+#### 2. Does your language have standard methods for functions that serve a similar purpose across all objects? For example, toString() in Java and __str__ in Python allow information about the objects to be printed. Are there similar functions in your language?
+###### 
